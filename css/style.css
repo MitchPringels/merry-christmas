@@ -1,0 +1,41 @@
+body{
+  background-image:url("https://images.pexels.com/photos/730480/pexels-photo-730480.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+h1{
+  color:whitesmoke;
+  font-size: 3em;
+  font-family: 'Marck Script', cursive;
+  animation-name: tekst;
+  animation-duration: 20s;
+  animation-iteration-count: 1;
+  margin-left: 12em;
+  margin-top: 2em;
+}
+@keyframes tekst {
+  0%{
+    margin-top: -12em;
+    color: red;
+  }
+  100%{
+    margin-top: 2em;
+    color: whitesmoke;
+  }
+}
+#myButton, #myButton2{
+  margin: 10em 0em 2em 35em;
+  padding:1em;
+  border-radius:25px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#myButton2{
+  margin-left: 29em;
+}
+#myStop{
+  margin-top: 5em;
+  margin-left: 55em;
+  padding:1em;
+  border-radius:25px;
+  background-color: rgba(255, 0, 0, 0.5);
+}
